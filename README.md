@@ -6,5 +6,6 @@
 6. Download the CSV from http://seecfp.com/ into the project's folder.
 7. `cd` into the project's folder and run "`node .`"
 8. Follow the instructions prompted to authenticate with your Google account (only the first time). 
+9. Follow me on Twitter https://twitter.com/danieletimo
 
 When you want to add the latest events, just repeat steps 6 and 7.
