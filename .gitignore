@@ -1,6 +1,6 @@
 config.js
 credentials.json
 token.json
-nomde_modules
+node_modules
 OpenCFPs.csv
 package-lock.json
