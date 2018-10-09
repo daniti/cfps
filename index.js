@@ -39,7 +39,7 @@ function mergeCFPs(currentCFPs, newCFPs, auth) {
     });
     var newRows = [];
     for (var i = 0; i < newCFPs.length; i++) {
-        if (existingEvents.indexOf(newCFPs[i]['Name']) == -1) {
+        if (existingEvents.indexOf(newCFPs[i]['Name']) == -1 && newCFPs[i]['Name'] != '[in short] We expect all participants') {
             var newRow = config.columnsMap.map((col) => {
                 return col ? newCFPs[i][col] : '';
             });
